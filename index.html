@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Love Letter 💌</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="passwordPrompt">
+            <h2>🔒 Enter the Secret Password</h2>
+            <input type="password" id="passwordInput" placeholder="Enter password">
+            <button id="submitPassword">Unlock 💕</button>
+            <p id="errorMessage" class="error"></p>
+        </div>
+
+        <div id="mainContent" class="hidden">
+            <h2>💌 Your Secret Love Letter 💌</h2>
+            <p>Choose a language:</p>
+            <div class="buttons">
+                <button id="tamilBtn">❤ தமிழ்</button>
+                <button id="englishBtn">💖 English</button>
+            </div>
+            <div id="content">
+                <p id="tamilContent" class="message"></p>
+                <p id="englishContent" class="message" style="display: none;"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
